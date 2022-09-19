@@ -1,5 +1,5 @@
 name: CI
-on: [push,pull_request]
+on: [push, pull_request]
 
 jobs:
     build:
@@ -8,6 +8,6 @@ jobs:
       steps:
         -uses: actions/checkout@v1
         -name: script
-         run: ./webapp.ps1
-         shell: pwsh
+        -run: ./webapp.ps1
+        -shell: pwsh
 
