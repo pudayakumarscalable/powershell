@@ -23,3 +23,5 @@ jobs:
              inlineScript: |
                Get-AzResourceGroup
              azPSVersion: "latest"
+             
+             get-azcontext
